@@ -1,0 +1,14 @@
+{
+	"server": {
+		"host": "0.0.0.0",
+		"port": 5678
+	},
+	"mongodb": {
+		"useNewUrlParser": true,
+		"db": "{ native_parser: true}",
+		"server": "{ poolSize: 5 }",
+		"user": "admin",
+		"pass": "admin",
+		"database": "youtube-crawl"
+	}
+}
