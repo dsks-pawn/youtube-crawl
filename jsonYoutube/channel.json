@@ -1,0 +1,57 @@
+{
+    "kind": "youtube#channelListResponse",
+    "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/skhPKuBbPe9Y6vIElOM-8tr-i1k\"",
+    "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 1
+    },
+    "items": [
+        {
+            "kind": "youtube#channel",
+            "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/YCff7OIkDa0LrTx3mVO7DdBBEdc\"",
+            "id": "UCyAojDE5b7HoWX6rzYUn5Mg",
+            "snippet": {
+                "title": "Zing MP3",
+                "description": "ZingMp3Offical - Kênh Âm Nhạc Việt Nam hàng đầu trên YouTube với nội dung mới nhất, hình ảnh chất lượng cao nhất. Truy câp ngay http://www.youtube.com/user/ZingMp3Official\n\nContact: zingmp3.vng@gmail.com",
+                "customUrl": "ZingMp3Official",
+                "publishedAt": "2013-10-15T11:23:24.000Z",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://yt3.ggpht.com/a-/AN66SAyuQ4lM-ElidE99m1Kpmd-xlB__8eDkPXsPlQ=s88-mo-c-c0xffffffff-rj-k-no",
+                        "width": 88,
+                        "height": 88
+                    },
+                    "medium": {
+                        "url": "https://yt3.ggpht.com/a-/AN66SAyuQ4lM-ElidE99m1Kpmd-xlB__8eDkPXsPlQ=s240-mo-c-c0xffffffff-rj-k-no",
+                        "width": 240,
+                        "height": 240
+                    },
+                    "high": {
+                        "url": "https://yt3.ggpht.com/a-/AN66SAyuQ4lM-ElidE99m1Kpmd-xlB__8eDkPXsPlQ=s800-mo-c-c0xffffffff-rj-k-no",
+                        "width": 800,
+                        "height": 800
+                    }
+                },
+                "localized": {
+                    "title": "Zing MP3",
+                    "description": "ZingMp3Offical - Kênh Âm Nhạc Việt Nam hàng đầu trên YouTube với nội dung mới nhất, hình ảnh chất lượng cao nhất. Truy câp ngay http://www.youtube.com/user/ZingMp3Official\n\nContact: zingmp3.vng@gmail.com"
+                },
+                "country": "VN"
+            },
+            "contentDetails": {
+                "relatedPlaylists": {
+                    "uploads": "UUyAojDE5b7HoWX6rzYUn5Mg",
+                    "watchHistory": "HL",
+                    "watchLater": "WL"
+                }
+            },
+            "statistics": {
+                "viewCount": "1357759466",
+                "commentCount": "0",
+                "subscriberCount": "2162543",
+                "hiddenSubscriberCount": false,
+                "videoCount": "1484"
+            }
+        }
+    ]
+}

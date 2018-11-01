@@ -1,0 +1,1055 @@
+{
+    "itemVideo": {
+        "kind": "youtube#playlistItemListResponse",
+        "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/FziQsiXX3LB-NvXWI9IqGamuTmM\"",
+        "pageInfo": {
+            "totalResults": 22,
+            "resultsPerPage": 50
+        },
+        "items": [
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/o-cxixc-TxRr6k5skai1x5d3U8g\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby4zRjM0MkVCRTg0MkYyQTM0",
+                "snippet": {
+                    "publishedAt": "2018-10-24T16:25:02.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "EM NGỦ CHƯA? | OFFICIAL MV | Trịnh Thăng Bình x OSAD",
+                    "description": "EM NGỦ CHƯA? | Trịnh Thăng Bình X OSAD \n\nMusic Composer : Trịnh Thăng Bình - OSAD\nPerforming : Trịnh Thăng Bình  - OSAD\nStarring: Salim \nMusic Producer : JJ\nMusic Arranger : JJ - Jimmy Tran                   \nRecording : Vũ Long\nMixing & Mastering : JJ\nProject Supervisors : Thu Nguyễn , Thủy Tiên\nGraphic Designer : Min D.O\nIllustrator: @anhvu00\nMotion: Smilantis\nPhotographer : Thiên An\nPR Executive : Nhật Duy\nStylist : Lê Ninh\nM.U.A:  Đỗ Hoàng Vũ\nHair : Gill Nguyễn\nChoreography Bảo Bảo \nOH Dance Team\nSubtitle: Phương Nghi\n\n*Lyric*\nCơn mưa đêm ngang qua đây rồi \nNgồi nghĩ đến em \nGiờ đã ngủ chưa hay còn đang thức \nAnh vẫn nhớ tiếng nói của em \nNgười sợ bóng đêm \nNgười sợ nghe tiếng mưa rơi khi một mình \nEm về nhà chưa? \nTrời đã khuya lắm rồi \nĐã từng có những cuộc gọi như vậy \nMà giờ xa xôi \nĐã từng đi cùng nhau \nKhắp những con phố nhỏ \nĐã từng có những dòng tin nhắn \nCứ định gửi lại thôi \nSài Gòn dạo này chắc hay mưa \nĐường em về đã có ai đón ai đưa? \nMình chẳng nói chuyện với nhau \nNhư ngày xưa nữa \nNhưng suy nghĩ về em \nBiết bao nhiêu cho vừa \nChẳng biết bây giờ \nNhắn tin bất ngờ \nHỏi thăm dăm ba câu có được không? \nViết xong tin rồi \nHết đứng lại ngồi \nLại thôi...Haizz \nNhững kẻ dại khờ \nThức đếm từng giờ \nChẳng bởi phải hôm nay ly trà đậm đâu \nMà là vì nhớ ai không thành câu... \nOh Baby! \nChẳng liên quan chẳng gặp bấy lâu \nNhưng sao khi nghĩ đến em \nTim anh lại hơi nhói đau \n\nChẳng biết em có người yêu mới chưa \nNgười đã quên anh chưa \nNgười có hay cơn mưa này \nĐể anh nói em nghe \nVề những vần thơ anh viết \nVề những chân trời xa xôi \nCó ngày nắng lên và mây xanh biếc \nĐể anh nói em nghe \nNhững câu chuyện còn chưa kể \nNhững lời du dương lúc dựa vai nhau \nCó em bên cạnh khi cơn mưa về \nCơn mưa đêm trôi qua từng phút \nEm có nghe dù chỉ một chút? \nCon tim anh cô đơn từng ngày \nCố giữ lấy gọi thầm tên em \nAnh không giỏi viết nhạc đời \nAnh không giỏi viết lời chơi vơi \nAnh cũng chẳng quá kiên nhẫn \nAnh cũng không giỏi chờ đợi \nAnh tìm cho mình \nNhững khoảng tĩnh lặng rồi khẽ buông lơi \nRồi nhờ câu hát của anh \nGửi gắm tới em vài lời \nEm có lạnh không? \nKhi trời trở gió \nEm có đói không? \nLúc làm tăng ca \nEm còn buồn không? \nKhi chẳng còn anh ở đó \nEm có nhớ không? \nCâu hát mình ngân nga \nChẳng biết bây giờ \nNhắn tin bất ngờ \nHỏi thăm dăm ba câu có được không? \nViết xong tin rồi \nHết đứng lại ngồi \nLại thôi...Haizz \nNhững kẻ dại khờ \nThức đếm từng giờ \nBởi vì lòng còn nhiều điều chưa nói \nLà gió đêm tương tư \nNhớ một người \nOh baby! \nChẳng liên quan chẳng gặp bấy lâu \nNhưng sao khi nghĩ đến em \nTim anh lại hơi nhói đau \nChẳng biết em có người yêu mới chưa \nNgười đã quên anh chưa \nNgười có hay cơn mưa này \nChẳng liên quan chẳng gặp bấy lâu \nNhưng sao khi nghĩ đến em \nTim anh lại hơi nhói đau \nChẳng biết em có người yêu mới chưa \nNgười đã quên anh chưa \nNgười có hay cơn mưa này \nOh baby! Chẳng liên quan chẳng gặp bấy lâu \nNhưng sao khi nghĩ đến em \nTim anh lại hơi nhói đau \nChẳng biết em có người yêu mới chưa \nNgười đã quên anh chưa \nNgười có hay cơn mưa này...\n\n#emnguchua #trinhthangbinh #osad\n\nCác bạn đăng ký kênh và bấm chuông để theo dõi video mới nhất :  http://metub.net/trinhthangbinh\n----\n☆ Vui lòng không reupload video của Trịnh Thăng Bình\n☆ Mọi vấn đề liên quan đến bản quyền vui lòng email tới support@metub.net\n----\n☆ THEO DÕI Trịnh Thăng Bình :\n☆ Facebook: https://www.facebook.com/singer.trinhthangbinh",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/4m3fPhwcGRA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/4m3fPhwcGRA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/4m3fPhwcGRA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/4m3fPhwcGRA/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/4m3fPhwcGRA/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 0,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "4m3fPhwcGRA"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "4m3fPhwcGRA",
+                    "videoPublishedAt": "2018-10-24T16:25:01.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/JgNO6qTiPTBGxlibB6c8TnJdWY0\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby5ENDU4Q0M4RDExNzM1Mjcy",
+                "snippet": {
+                    "publishedAt": "2018-03-26T03:11:02.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "TÂM SỰ TUỔI 30 | TRỊNH THĂNG BÌNH | OST ÔNG NGOẠI TUỔI 30",
+                    "description": "TÂM SỰ TUỔI 30 - OST Phim Ông Ngoại Tuổi 30\nSáng tác: Trịnh Thăng Bình, Chí Tâm\nTrình bày: Trịnh Thăng Bình\n----------------------------------\nSubscribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n-------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/kV3famkRaA4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/kV3famkRaA4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/kV3famkRaA4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/kV3famkRaA4/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/kV3famkRaA4/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 1,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "kV3famkRaA4"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "kV3famkRaA4",
+                    "videoPublishedAt": "2018-03-25T13:01:21.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/yWyNE6oCSAYaxGFn-EiU-RZPr0A\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby45RTgxNDRBMzUwRjQ0MDhC",
+                "snippet": {
+                    "publishedAt": "2018-01-12T09:02:23.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "KHÔNG SAO ĐÂU | TRỊNH THĂNG BÌNH | OFFICIAL MV",
+                    "description": "- LYRIC - \nKhông sao đâu, vì yêu anh hiểu được mà\nChỉ cần đó là những phút giây thật thà  nhất em từng đã, mọi chuyện còn lại không sao cả.\nKhông sao đâu, và đây là lời nói dối lần đầu,\nvì biết em đang muốn xóa đi thật mau\nnhững gì mình đã có mà chẳng cần anh ở nơi đó.\nNhiều lần dặn lòng phải hứa là sẽ chẳng bận tâm nữa, giờ lại đau thắt đến như  vậy. Uh uh uh… \nNgủ dậy còn người để nhớ, còn có thứ  để chờ là hạnh phúc rồi, chỉ cần thế thôi! \n\nCuộc sống vốn đã khó khăn muôn phần, gặp người mình yêu khó hơn trăm lần.\nKhi yêu tất cả mọi sự còn lại anh không cần.\nCon tim ấy chẳng ngại ngần để được đớn đau một lần. \nMình cầm tay đi muôn nơi, còn tuyệt hơn có cả thế giới. \nCảm giác ấy đã qua vô chừng, và em tặng anh nỗi đau chưa từng. Ai kia bỏ em ở lại cùng giọt lệ không ngừng. \nKhông sao đã có anh đây mình cùng bước qua chuyện này. \nMột ngày người có thay đổi, ta sẽ nói với nhau…\n\nRap : \nĐể được nhìn người anh đành lùi một bước. \nTự dặn lòng mình anh sẽ không như lần trước. \nPhải trả hết bao muộn phiền, bao lần tiền, bao lần tiền để anh có thể nắm tay bước đi cùng người. \nKhông sao đâu em anh đã nhận ra được từ lâu. \nKhông sao đâu em chắc có lẽ đôi ta chưa đậm sâu. \nBao lần thất tình,  bao lần dối mình\n\n\n**CREDITS **\nMusic composer : Trịnh Thăng Bình\nMusic Producer : Trịnh Thăng Bình\nMusic Arranger : Jaejin - Trịnh Thăng Bình\nPianist : Vũ Đặng Quốc Việt                     \nGuitarnist : Anh Khoa - Trịnh Vũ \nBass : Thanh Tân \nRecording : Vũ Long\nSound Effects : Vũ Long\nSound Engineer - Mastering : Wolfgang Alexander\nScript Editor : Chí Tâm - Trịnh Thăng Bình\nProject Manager : Thu Nguyễn - Nhi Nguyễn \nAdministration : PN Thủy Tiên\nPublic Relation : Nhi Nguyễn\nGraphic Designer : Min D.O\nPhotographer : Thiên An\nSocial Media : Nhật Duy Lê \nCast : Katleen Phan Võ, Bpro team\n\nProduction Crew\nExecutive Producer : Trịnh Thăng Bình\nProducer : Vy Đinh – Giang Nguyễn\nDirector : Nguyễn Hữu Hoàng\nD.O.P : Trang Công Minh\nArt Director : Trần Minh Hậu\nAssistant Director : Nguyễn Thiện Khánh Huy\nCamera Operator : Hà Hoàng – Ken Trâu\nFocus Puller : Nghiêm Duy Hải\nArt Department : Lâm Thanh Phong – Đình Bảo – Phan Văn Nam – Đoàn Quốc Trung – Lê Tiếp\nMakeup : Mộng Hà – Tôn Nữ Mỹ Như – Hoàng Trọng Mừng\nStylist : Trịnh Thăng Bình – BimBim\nProduction Assistant : Huỳnh Đỉnh Nhân\nLocation Manager : Trương Quang Huy\nEditor : Tuộc\nVFX : Brian Nguyen – Au8ust Station\nLighting/Film Equipment Supplier : PS VietNam\nLighting Technicians : PS VietNam\nCatering Supervisor : Đào Thị Huyền My – Phạm Cường Thịnh\n\n\nSpecial thanks to\nnhãn hàng điện thoại Vivo  - https://www.vivo.com/vn/\n\n\nNghe audio độc quyền tại Zing MP3 : https://mp3.zing.vn/bai-hat/Khong-Sao-Dau-Trinh-Thang-Binh/ZW9AA0AC.html\nSubcribes nhanh: http://bit.ly/BproEntertaiment\nFacebook: http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/VjFPet5cCwA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/VjFPet5cCwA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/VjFPet5cCwA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/VjFPet5cCwA/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/VjFPet5cCwA/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 2,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "VjFPet5cCwA"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "VjFPet5cCwA",
+                    "videoPublishedAt": "2018-01-12T08:59:45.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/uyhAgFvu0sAJlfdOV32eRaU494s\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby4yMUQyQTQzMjRDNzMyQTMy",
+                "snippet": {
+                    "publishedAt": "2017-06-16T02:34:37.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "SEEN | Trịnh Thăng Bình | MV Official",
+                    "description": "SEEN (MV Official) trên kênh YouTube chính thức của ca sĩ Trịnh Thăng Bình.\nNếu thích thì đừng ngại click Like cho Bình ở dưới nhé! Mọi người cũng đừng quên để lại comment đóng góp ý kiến cho Bình và ekip vì mỗi comment của các bạn là niềm động viên tinh thần cho cả ekip. \n\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ZK9dC2x-9eE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ZK9dC2x-9eE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ZK9dC2x-9eE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/ZK9dC2x-9eE/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/ZK9dC2x-9eE/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 3,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "ZK9dC2x-9eE"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "ZK9dC2x-9eE",
+                    "videoPublishedAt": "2017-06-15T12:51:40.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/RC8qDFDOoMrhjrjJxFmy4o0GtRQ\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby45NDk1REZENzhEMzU5MDQz",
+                "snippet": {
+                    "publishedAt": "2016-07-05T07:24:47.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Anh Muốn Nói | Trịnh Thăng Bình | MV Official",
+                    "description": "Kênh YouTube chính thức của Trịnh Thăng Bình\nClick Subcribes ngay tại link http://bit.ly/BproEntertaiment\nFacebook: http://bit.ly/FBTrinhThangBinh\n----------------------------------\nMV Anh Muốn Nói - Trịnh Thăng Bình\nActress: Yu Dương",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/HsrPt5tDqwY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/HsrPt5tDqwY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/HsrPt5tDqwY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/HsrPt5tDqwY/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/HsrPt5tDqwY/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 4,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "HsrPt5tDqwY"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "HsrPt5tDqwY",
+                    "videoPublishedAt": "2016-07-05T04:46:36.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/hPHjaxQ9XkodpFGR_eJ1np-ijos\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby41QTY1Q0UxMTVCODczNThE",
+                "snippet": {
+                    "publishedAt": "2016-08-22T10:26:46.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Sau Bao Năm | Trịnh Thăng Bình | Offical Music Video",
+                    "description": "Ca khúc: Sau Bao Năm\nTrình bày: Trịnh Thăng Bình\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/RxdQ-6gpIOY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/RxdQ-6gpIOY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/RxdQ-6gpIOY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/RxdQ-6gpIOY/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/RxdQ-6gpIOY/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 5,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "RxdQ-6gpIOY"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "RxdQ-6gpIOY",
+                    "videoPublishedAt": "2016-08-23T03:55:11.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/Sl8WEJ9jiyDFfaV3PE2Oh2IHZsI\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby5EQUE1NTFDRjcwMDg0NEMz",
+                "snippet": {
+                    "publishedAt": "2016-08-22T10:26:46.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Sài Gòn Đêm Nay | Trịnh Thăng Bình | Offical Music Video",
+                    "description": "MV Sài Gòn Đêm Nay\nTrình bày: Trịnh Thăng Bình\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/6X1sBVb_FTg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/6X1sBVb_FTg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/6X1sBVb_FTg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/6X1sBVb_FTg/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/6X1sBVb_FTg/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 6,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "6X1sBVb_FTg"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "6X1sBVb_FTg",
+                    "videoPublishedAt": "2016-08-23T03:55:10.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/RKxrrYfN2xod_ok73rKQoAeRHE8\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby41Mzk2QTAxMTkzNDk4MDhF",
+                "snippet": {
+                    "publishedAt": "2016-08-22T10:26:46.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Môn Đăng Hộ Đối | Trịnh Thăng Bình | Offical Music Video",
+                    "description": "MV Môn Đăng Hộ Đối\nTrình bày: Trình Thăng Bình\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/tEoc_fBo77c/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/tEoc_fBo77c/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/tEoc_fBo77c/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/tEoc_fBo77c/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/tEoc_fBo77c/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 7,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "tEoc_fBo77c"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "tEoc_fBo77c",
+                    "videoPublishedAt": "2016-08-23T03:55:09.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/CyTjVRdGcboNjcgMwbtGRcI_sHc\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby4zMDg5MkQ5MEVDMEM1NTg2",
+                "snippet": {
+                    "publishedAt": "2016-08-22T10:26:46.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Đã Biết Sẽ Có Ngày Hôm Qua | Trịnh Thăng Bình | Offical Music Video",
+                    "description": "MV Đã Biết Sẽ Có Ngày Hôm Qua\nCa sỹ: Trịnh Thăng Bình\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/CsxW1KqHfAY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/CsxW1KqHfAY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/CsxW1KqHfAY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/CsxW1KqHfAY/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/CsxW1KqHfAY/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 8,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "CsxW1KqHfAY"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "CsxW1KqHfAY",
+                    "videoPublishedAt": "2016-08-23T03:55:08.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/wLAMU6KojOl2gUaRjKF1dnvUso0\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby45ODRDNTg0QjA4NkFBNkQy",
+                "snippet": {
+                    "publishedAt": "2016-08-22T10:26:46.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Người ấy (Story Version) | Trịnh Thăng Bình | Music Video",
+                    "description": "MV Người Ấy\nCa sỹ: Trịnh Thăng Bình\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/0BVs_3zQ4Zc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/0BVs_3zQ4Zc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/0BVs_3zQ4Zc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/0BVs_3zQ4Zc/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/0BVs_3zQ4Zc/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 9,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "0BVs_3zQ4Zc"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "0BVs_3zQ4Zc",
+                    "videoPublishedAt": "2016-08-23T03:55:08.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/yUs4XEzqyZWoA9ua5UN3x_NmYlg\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby5EMEEwRUY5M0RDRTU3NDJC",
+                "snippet": {
+                    "publishedAt": "2016-08-22T10:26:46.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Người Ấy (Studio Version) | Trịnh Thăng Bình | Offical Music Video",
+                    "description": "MV Người Ấy\nCa sỹ: Trịnh Thăng Bình\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/BL_8bBYQ0Zo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/BL_8bBYQ0Zo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/BL_8bBYQ0Zo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/BL_8bBYQ0Zo/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/BL_8bBYQ0Zo/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 10,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "BL_8bBYQ0Zo"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "BL_8bBYQ0Zo",
+                    "videoPublishedAt": "2016-08-23T03:55:07.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/_6-FTIFYlirRQgpuB-rHTTjoriQ\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby40NzZCMERDMjVEN0RFRThB",
+                "snippet": {
+                    "publishedAt": "2016-08-22T10:26:46.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Như Vậy Thôi | Trịnh Thăng Bình ft. Yến Nhi | Offical Music Video",
+                    "description": "MV Như Vậy Thôi\nCa Sỹ: Trịnh Thăng Bình ft. Yến Nhi\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/P5LRrP-06vY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/P5LRrP-06vY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/P5LRrP-06vY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/P5LRrP-06vY/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/P5LRrP-06vY/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 11,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "P5LRrP-06vY"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "P5LRrP-06vY",
+                    "videoPublishedAt": "2016-08-23T03:55:06.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/ZqrCywpH9rVdHZnd5VYrYpEHJTw\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby5GNjNDRDREMDQxOThCMDQ2",
+                "snippet": {
+                    "publishedAt": "2016-08-22T10:10:02.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Anh Đang Nơi Đâu | Miu Lê | Offical Music Video",
+                    "description": "Bài hát: Anh Đang Nơi Đâu\nCa sỹ: Miu Lê\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n                                           http://bit.ly/2bzwLAq\n\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/_J3JA5B_e2o/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/_J3JA5B_e2o/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/_J3JA5B_e2o/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/_J3JA5B_e2o/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/_J3JA5B_e2o/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 12,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "_J3JA5B_e2o"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "_J3JA5B_e2o",
+                    "videoPublishedAt": "2016-08-18T06:21:45.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/IhsgEHvlrgSOzcZiaAqlnEmfXjQ\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby5DQUNERDQ2NkIzRUQxNTY1",
+                "snippet": {
+                    "publishedAt": "2015-12-22T05:09:58.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Đã Biết Sẽ Có Ngày Hôm Qua | Trịnh Thăng Bình (Old version)",
+                    "description": "Đã biết sẽ có ngày hôm qua | Trịnh Thăng Bình | Official Music Video\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/9JvqTwbJXEY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/9JvqTwbJXEY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/9JvqTwbJXEY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/9JvqTwbJXEY/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 13,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "9JvqTwbJXEY"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "9JvqTwbJXEY",
+                    "videoPublishedAt": "2015-12-22T05:09:57.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/3-cmnYoBFhUV64QPWLCbLR9I-tg\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby41MzJCQjBCNDIyRkJDN0VD",
+                "snippet": {
+                    "publishedAt": "2015-12-22T04:54:52.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Lãng Tử | Trịnh Thăng Bình | Official Music Video",
+                    "description": "Lãng Tử | Trịnh Thăng Bình | Official Music Video\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/SsUdHyApAjU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/SsUdHyApAjU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/SsUdHyApAjU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/SsUdHyApAjU/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 14,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "SsUdHyApAjU"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "SsUdHyApAjU",
+                    "videoPublishedAt": "2015-12-22T04:54:51.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/iOpv5zFsYdq4OY8TNnocUDeTOfM\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby4xMkVGQjNCMUM1N0RFNEUx",
+                "snippet": {
+                    "publishedAt": "2015-12-03T09:45:16.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Đâu Ai Đợi Mình | Trịnh Thăng Bình | Official Music Video",
+                    "description": "Đâu Ai Đợi Mình | Trịnh Thăng Bình | Official Music Video\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bweXYSOMCkk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bweXYSOMCkk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bweXYSOMCkk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/bweXYSOMCkk/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 15,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "bweXYSOMCkk"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "bweXYSOMCkk",
+                    "videoPublishedAt": "2015-12-03T09:45:15.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/Ki9rY6eg8GgtjhHFcJl0c5bDR-Y\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby4wOTA3OTZBNzVEMTUzOTMy",
+                "snippet": {
+                    "publishedAt": "2015-12-02T04:19:10.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Lời Chưa Nói | Trịnh Thăng Bình | Official Music Video",
+                    "description": "Lời Chưa Nói | Trịnh Thăng Bình | Official Music Video\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/N5asFjHCD1k/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/N5asFjHCD1k/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/N5asFjHCD1k/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/N5asFjHCD1k/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 16,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "N5asFjHCD1k"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "N5asFjHCD1k",
+                    "videoPublishedAt": "2015-12-02T04:19:09.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/F5RmrM0yHgvqXIBA5ZToebFpbUU\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby41MjE1MkI0OTQ2QzJGNzNG",
+                "snippet": {
+                    "publishedAt": "2015-12-02T04:13:39.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Người Yêu Tuyệt Vời | Trịnh Thăng Bình | Official Music Video",
+                    "description": "Người Yêu Tuyệt Vời | Trịnh Thăng Bình | Official Music Video\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/E7gESd4b2gY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/E7gESd4b2gY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/E7gESd4b2gY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/E7gESd4b2gY/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 17,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "E7gESd4b2gY"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "E7gESd4b2gY",
+                    "videoPublishedAt": "2015-12-02T04:13:38.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/u0Fpq3-NI0OKzHkGgahRx1JCsI4\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby4wMTcyMDhGQUE4NTIzM0Y5",
+                "snippet": {
+                    "publishedAt": "2015-11-12T18:34:03.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Em Của Người Ta | Trịnh Thăng Bình | Official Music Video",
+                    "description": "Em Của Người Ta | Trịnh Thăng Bình | Official Music Video\nXem và đăng ký theo dõi kênh chính thức của Trịnh Thăng Bình nhé.\n----------------------------------\nSubcribes nhanh:  http://bit.ly/BproEntertaiment\nFacebook:                         http://bit.ly/FBTrinhThangBinh\n----------------------------------",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/5R7p91cUf_U/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/5R7p91cUf_U/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/5R7p91cUf_U/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/5R7p91cUf_U/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 18,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "5R7p91cUf_U"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "5R7p91cUf_U",
+                    "videoPublishedAt": "2015-11-13T14:30:00.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/mPzTqa9QOLnDo5IwHx25PsShimA\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby4yODlGNEE0NkRGMEEzMEQy",
+                "snippet": {
+                    "publishedAt": "2015-03-23T03:21:07.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Sẽ Quên Ngày Hôm Nay - Trịnh Thăng Bình ft. Phạm Hoàng Duy (OFFICIAL Music Video)",
+                    "description": "Sẽ Quên Ngày Hôm Nay - Trịnh Thăng Bình ft. Phạm Hoàng Duy [OFFICIAL MV]\n\nSubscribe: http://bit.ly/18OaHOB\nFollow: https://www.facebook.com/TrinhThangBinh.Official",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/QMIB5SPZNdM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/QMIB5SPZNdM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/QMIB5SPZNdM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/QMIB5SPZNdM/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 19,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "QMIB5SPZNdM"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "QMIB5SPZNdM",
+                    "videoPublishedAt": "2015-03-09T19:53:18.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/uMUQ3jev9pr9_szyE2FKFvXyQsY\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby4yMDhBMkNBNjRDMjQxQTg1",
+                "snippet": {
+                    "publishedAt": "2018-10-22T05:58:23.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "Ai Là Ai Của Ai? | Trịnh Thăng Bình | OFFICIAL MV",
+                    "description": "Ai Là Ai Của Ai? | Trịnh Thăng Bình | MV LYRIC\n\nCô đơn đủ lâu thì ta mới hiểu thấu \nĐể giữ nhau bây giờ phải đổi bằng niềm đau. \n\nYêu thương đủ lâu thì mới hiểu đừng nghĩ quá xa xôi \nLỡ khi ai quay đi rồi, thì ta cũng sẽ tổn thương ít hơn. \n\nNếu yêu là trò si mê, phải bước qua mọi lời khen chê, thì anh chẳng cần đúng sai. \nNếu yêu buộc phải hơn thua thì anh tập quen với thất bại. \n\nNếu ta bước vội qua nhau, biết đâu đến ngàn năm sau thì duyên vẫn chưa kịp tới. \nVậy tại sao phải lỡ làng, dù tình nhiều khi phũ phàng \n\nChorus \n\nAi là ai của ai \nAi sẽ rời bỏ ai \nAi là người mãi mãi khổ đau vì ai \n\nYêu là chấp nhận mình yếu đuối và liều đến cuối phải không? \n\nNhưng mà ai có hay sau lưng một tình yêu đã bước qua giới hạn hạnh phúc \nLà triệu vết thương sâu giằng xé tột cùng\n\nCác bạn đăng ký kênh và bấm chuông để theo dõi video mới nhất :  http://metub.net/trinhthangbinh\n----\nMusic producer: Nguyễn Văn Trung \nComposer: Trịnh Thăng Bình\nArranger: Đoàn Minh Vũ\nGuitar: Zen\nRecording: Vũ Long\nMixing: Đoàn Minh Vũ, Trịnh Thăng Bình, Nguyễn Đăng Nhật Quang\nMastering:  Đoàn Minh Vũ\n\nProject Supervisors: Nhật Duy, Nguyễn Lê Hoàng Thu, Phạm Nguyễn Thủy Tiên\nPR Executive: Nhật Duy\nDesigner: Min D.O\nLyric Video: Đoàn Hồng Ngọc\nM.U.A: Đỗ Hoàng Vũ \nHair: Nguyễn Thu Giang (Gil Nguyễn)\nProduct by Bpro team\n----\n☆ Vui lòng không reupload video của Trịnh Thăng Bình\n☆ Mọi vấn đề liên quan đến bản quyền vui lòng email tới support@metub.net\n----\n☆ THEO DÕI Trịnh Thăng Bình :\n☆ Facebook: https://www.facebook.com/singer.trinhthangbinh",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/tC7qM-ohlwE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/tC7qM-ohlwE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/tC7qM-ohlwE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/tC7qM-ohlwE/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/tC7qM-ohlwE/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 20,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "tC7qM-ohlwE"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "tC7qM-ohlwE",
+                    "videoPublishedAt": "2018-09-28T13:00:12.000Z"
+                }
+            },
+            {
+                "kind": "youtube#playlistItem",
+                "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/EsmcIbc5IpKeaYNN8659Wohu6bE\"",
+                "id": "UEx1QkpkUkZJblRKSTJfYU9VSWY3WkZmY2pmck5nb2ZPby5GM0Q3M0MzMzY5NTJFNTdE",
+                "snippet": {
+                    "publishedAt": "2018-10-24T05:57:14.000Z",
+                    "channelId": "UCVsnRgnAXQb5YErd47-q9Fw",
+                    "title": "EM NGỦ CHƯA? | TEASER MV | Trịnh Thăng Bình x OSAD",
+                    "description": "EM NGỦ CHƯA? | Trịnh Thăng Bình X OSAD \n\nMusic Composer : Trịnh Thăng Bình - OSAD\nPerforming : Trịnh Thăng Bình  - OSAD\nStarring: Salim \nMusic Producer : JJ\nMusic Arranger : JJ - Jimmy                   \nRecording : Vũ Long\nMixing & Mastering : JJ\nProject Supervisors : Thu Nguyễn , Thủy Tiên\nGraphic Designer : Min D.O\nIllustrator: @anhvu00\nMotion: Smilantis\nPhotographer : Thiên An\nPR Executive : Nhật Duy\nStylist : Lê Ninh\nM.U.A:  Đỗ Hoàng Vũ\nHair : Gill Nguyễn\nChoreography Bảo Bảo \nOH Dance Team\n\n\nCác bạn đăng ký kênh và bấm chuông để theo dõi video mới nhất :  http://metub.net/trinhthangbinh\n----\n☆ Vui lòng không reupload video của Trịnh Thăng Bình\n☆ Mọi vấn đề liên quan đến bản quyền vui lòng email tới support@metub.net\n----\n☆ THEO DÕI Trịnh Thăng Bình :\n☆ Facebook: https://www.facebook.com/singer.trinhthangbinh",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/lK_i5tllWLs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/lK_i5tllWLs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/lK_i5tllWLs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/lK_i5tllWLs/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/lK_i5tllWLs/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Trịnh Thăng Bình Official",
+                    "playlistId": "PLuBJdRFInTJI2_aOUIf7ZFfcjfrNgofOo",
+                    "position": 21,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": "lK_i5tllWLs"
+                    }
+                },
+                "contentDetails": {
+                    "videoId": "lK_i5tllWLs",
+                    "videoPublishedAt": "2018-10-23T01:59:22.000Z"
+                }
+            }
+        ]
+    }
+}

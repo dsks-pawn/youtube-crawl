@@ -9,6 +9,6 @@
 		"server": "{ poolSize: 5 }",
 		"user": "admin",
 		"pass": "admin",
-		"database": "youtube-crawl"
+		"database": "youtube_crawl"
 	}
 }

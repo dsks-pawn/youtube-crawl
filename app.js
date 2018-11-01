@@ -13,38 +13,29 @@ var app = express();
 
 
 
-// let options = {
-//   useNewUrlParser: config.get("mongodb.useNewUrlParser"),
-//   db: config.get("mongodb.db"),
-//   server: config.get("mongodb.server"),
-//   user: config.get("mongodb.user"),
-//   pass: config.get("mongodb.pass"),
-// }
+let options = {
+  useNewUrlParser: config.get("mongodb.useNewUrlParser"),
+  db: config.get("mongodb.db"),
+  server: config.get("mongodb.server"),
+  user: config.get("mongodb.user"),
+  pass: config.get("mongodb.pass"),
+}
 
-// mongoose.connect(`mongodb://localhost:27017/${config.get("mongodb.database")}`, options, (err) => {
-//   if (err) {
-//     console.log(`Connect DB failed. Error ${err}`);
-//   } else {
-//     console.log('Connect DB successfully');
-//   }
-// });
+mongoose.connect(`mongodb://localhost:27017/${config.get("mongodb.database")}`, options, (err) => {
+  if (err) {
+    console.log(`Connect DB failed. Error ${err}`);
+  } else {
+    console.log('Connect DB successfully');
+  }
+});
 
-// mkdir /c/Users/Administrator/Desktop/node-vue-x2js/server/database
-// mongod --port 27017 --dbpath /c/Users/Administrator/Desktop/node-vue-x2js/server/database
+// mkdir /c/Users/akker/Desktop/code/database
+// mongod --port 27017 --dbpath /c/Users/akker/Desktop/code/database
 // mongo --port 27017
-// use project_node_vue
+// use youtube_crawl
 // db.createUser({user:"admin", pwd:"admin", roles: ["readWrite", "dbAdmin", "dbOwner"]})
-// mongod --auth --port 27017 --dbpath /c/Users/Administrator/Desktop/node-vue-x2js/server/database
-// mongo --port 27017 -u "admin" -p "admin" --authenticationDatabase "project_node_vue"
-
-
-// mkdir /Users/thanh/Desktop/node-vue-x2js/server/database2
-// mongod --port 27017 --dbpath /Users/thanh/Desktop/node-vue-x2js/server/database
-// mongo --port 27017
-// use project_node_vue
-// db.createUser({user:"admin", pwd:"admin", roles: ["readWrite", "dbAdmin", "dbOwner"]})
-// mongod --auth --port 27017 --dbpath /Users/thanh/Desktop/node-vue-x2js/server/database
-// mongo --port 27017 -u "admin" -p "admin" --authenticationDatabase "project_node_vue"
+// mongod --auth --port 27017 --dbpath /c/Users/akker/Desktop/code/database
+// mongo --port 27017 -u "admin" -p "admin" --authenticationDatabase "youtube_crawl"
 
 
 // view engine setup
