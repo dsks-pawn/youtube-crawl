@@ -23,7 +23,7 @@ const VideoByChannelSchema = Schema({
     },
     tags: {
         type: Array,
-        default: null
+        default: []
     },
     view_count: {
         type: Number,
@@ -42,6 +42,11 @@ const VideoByChannelSchema = Schema({
         default: null
     },
     used_get_full_data: {
+        type: Boolean,
+        required: true,
+        default: false
+    },
+    used_get_comment: {
         type: Boolean,
         required: true,
         default: false

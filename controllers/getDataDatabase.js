@@ -1,5 +1,6 @@
 import ChannelSchema from "../models/Channel"
-import PlaylistSchema from "../models/Playlists"
+import PlaylistSchema from "../models/Playlist"
+import VideoByChannelSchema from "../models/VideoByChannel"
 
 const getDataChannelByIdChannelNotUsed = async () => {
     try {
@@ -11,9 +12,9 @@ const getDataChannelByIdChannelNotUsed = async () => {
         throw error
     }
 }
-const getDataAllVideoByIdChannelNotUsed = async () => {
+const getDataPlaylistByIdChannelNotUsed = async () => {
     try {
-        let result = await ChannelSchema.find({ used_get_all_video: false }).select({
+        let result = await ChannelSchema.find({ used_get_playlist: false }).select({
             id_channel: 1,
         })
         return result
@@ -21,10 +22,9 @@ const getDataAllVideoByIdChannelNotUsed = async () => {
         throw error
     }
 }
-
-const getDataPlaylistByIdChannelNotUsed = async () => {
+const getDataAllVideoByIdChannelNotUsed = async () => {
     try {
-        let result = await ChannelSchema.find({ used_get_playlist: false }).select({
+        let result = await ChannelSchema.find({ used_get_all_video: false }).select({
             id_channel: 1,
         })
         return result
@@ -45,9 +45,20 @@ const getDataPlaylistByIdPlaylistNotUsed = async () => {
     }
 }
 
+const getDataDetailVideoListChannelNotUsed = async () => {
+    try {
+        let result = await VideoByChannelSchema.find({ used_get_full_data: false }).select({
+            id_video: 1
+        })
+        return result
+    } catch (error) {
+        throw error
+    }
+}
 module.exports = {
     getDataChannelByIdChannelNotUsed,
     getDataAllVideoByIdChannelNotUsed,
     getDataPlaylistByIdChannelNotUsed,
     getDataPlaylistByIdPlaylistNotUsed,
+    getDataDetailVideoListChannelNotUsed
 }

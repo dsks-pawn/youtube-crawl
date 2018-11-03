@@ -1,5 +1,5 @@
 import ChannelSchema from "../models/Channel"
-import PlaylistSchema from "../models/Playlists"
+import PlaylistSchema from "../models/Playlist"
 import VideoByPlaylist from "../models/VideoByPlaylist"
 import VideoByChannel from "../models/VideoByChannel"
 
@@ -91,10 +91,36 @@ const addListVideoByChannelId = async (id, data) => {
     }
 }
 
+const updateFullDataDetailVideoByChannel = async (data) => {
+    try {
+        let result = await VideoByChannel.updateOne(
+            {
+                id_video: data.id_video,
+                used_get_full_data: false
+            },
+            {
+                $set: {
+                    title: data.title,
+                    description: data.description,
+                    tags: data.tags,
+                    view_count: data.view_count,
+                    comment_count: data.comment_count,
+                    like_count: data.like_count,
+                    dislike_count: data.dislike_count,
+                    used_get_full_data: true
+                }
+            }
+        )
+        return result
+    } catch (error) {
+        throw error
+    }
+}
 module.exports = {
     addChannel,
     updateInformationChannel,
     addPlaylistByChannelId,
     addItemVideoByPlaylistId,
-    addListVideoByChannelId
+    addListVideoByChannelId,
+    updateFullDataDetailVideoByChannel
 }

@@ -5,7 +5,9 @@ import getDataDatabase from '../controllers/getDataDatabase'
 import { SUCCESS, FAILED } from "../constans.js"
 import { loadClientSecrets } from "../helpers/youtube"
 import { LoginTicket } from "google-auth-library/build/src/auth/loginticket";
-var { google } = require('googleapis');
+import { google } from 'googleapis'
+var service = google.youtube('v3');
+
 
 router.post("/add_channel", async (req, res) => {
     try {
@@ -23,7 +25,7 @@ router.get("/infor_channel", async (req, res) => {
         if (result.length > 0) {
             result.forEach(element => {
                 async function getChannel(auth) {
-                    let service = google.youtube('v3');
+
                     let response = await service.channels.list({
                         auth: auth,
                         part: 'snippet,contentDetails,statistics',
@@ -53,7 +55,7 @@ router.get("/infor_playlist", async (req, res) => {
         if (result.length > 0) {
             result.forEach(element => {
                 async function playlistsListByChannelId(auth) {
-                    let service = google.youtube('v3');
+
                     let response = await service.playlists.list({
                         auth: auth,
                         channelId: element.id_channel,
@@ -96,7 +98,7 @@ router.get("/infor_video_by_playlist", async (req, res) => {
         if (result.length > 0) {
             result.forEach(element => {
                 async function playlistItemsListByPlaylistId(auth) {
-                    let service = google.youtube('v3');
+
                     let response = await service.playlistItems.list({
                         auth: auth,
                         part: 'snippet,contentDetails',
@@ -139,7 +141,7 @@ router.get("/get_all_video_by_channel_id", async (req, res) => {
         if (result.length > 0) {
             result.forEach(element => {
                 async function getAllVideoByChannelId(auth) {
-                    let service = google.youtube('v3');
+
                     let responseFirst = await service.search.list({
                         auth: auth,
                         oder: 'date',
@@ -195,7 +197,7 @@ router.get("/get_all_video_by_channel_id", async (req, res) => {
                         getDataCheckNextPageToken(nextPage)
                     } else {
                         await insertDataYoutube.addListVideoByChannelId(element._id, data)
-                        res.json({ "Status": "Get data result" })
+                        console.log('Get data result');
                     }
                 }
                 loadClientSecrets(getAllVideoByChannelId)
@@ -208,6 +210,99 @@ router.get("/get_all_video_by_channel_id", async (req, res) => {
     }
 })
 
+router.get("/infor_video_by_channel", async (req, res) => {
+    try {
+        let result = await getDataDatabase.getDataDetailVideoListChannelNotUsed()
+        let idVideo = ''
+        let listIdVideo = []
+        let idVideoNew = ''
+        let count = 0
+
+        function getDataVideoLessFifty(listIdVideoLessFifty) {
+            idVideo = ''
+            listIdVideoLessFifty.forEach(e => {
+                idVideo += `,${e.id_video}`
+            })
+            idVideoNew = idVideo.slice(1)
+
+            async function videoDetailLessByChannal(auth) {
+                let response = await service.videos.list({
+                    auth: auth,
+                    part: 'snippet,contentDetails,statistics',
+                    id: idVideoNew
+                });
+                let listDetailVideo = response.data.items
+                listDetailVideo.forEach(async e => {
+                    let data = {
+                        id_video: e.id,
+                        title: e.snippet.title,
+                        description: e.snippet.description,
+                        tags: e.snippet.tags,
+                        view_count: Number(e.statistics.viewCount),
+                        comment_count: Number(e.statistics.commentCount),
+                        like_count: Number(e.statistics.likeCount),
+                        dislike_count: Number(e.statistics.dislikeCount)
+                    }
+                    await insertDataYoutube.updateFullDataDetailVideoByChannel(data)
+                })
+                res.json({ "Status": "Get data success" })
+            }
+            loadClientSecrets(videoDetailLessByChannal)
+
+        }
+
+        if (result.length > 0 && result.length < 50) {
+            getDataVideoLessFifty(result)
+        } else if (result.length > 50) {
+            result.forEach(e => {
+                count++
+                idVideo += `,${e.id_video}`
+                if (count == 50) {
+                    count = 0
+                    idVideoNew = idVideo.slice(1)
+                    listIdVideo.push(idVideoNew)
+                    idVideo = ''
+                }
+            })
+
+            listIdVideo.forEach(elem => {
+                async function videoDetailByChannal(auth) {
+                    let responseL = await service.videos.list({
+                        auth: auth,
+                        part: 'snippet,contentDetails,statistics',
+                        id: elem
+                    });
+                    let listDetailVideoL = responseL.data.items
+                    listDetailVideoL.forEach(async e => {
+                        let dataL = {
+                            id_video: e.id,
+                            title: e.snippet.title,
+                            description: e.snippet.description,
+                            tags: e.snippet.tags,
+                            view_count: Number(e.statistics.viewCount),
+                            comment_count: Number(e.statistics.commentCount),
+                            like_count: Number(e.statistics.likeCount),
+                            dislike_count: Number(e.statistics.dislikeCount)
+                        }
+                        await insertDataYoutube.updateFullDataDetailVideoByChannel(dataL)
+                    })
+                }
+                loadClientSecrets(videoDetailByChannal)
+            })
+
+            setTimeout(() => {
+                let resultL = await getDataDatabase.getDataDetailVideoListChannelNotUsed()
+                if (resultL.length > 0) {
+                    getDataVideoLessFifty(resultL)
+                }
+            }, 2000);
+        } else {
+            res.json({ "Status": "Không có dữ liệu video thích hợp" })
+        }
+    } catch (error) {
+        throw error
+    }
+})
 
 
 module.exports = router
