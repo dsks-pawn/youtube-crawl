@@ -1,12 +1,8 @@
 import mongoose from 'mongoose'
 const Schema = mongoose.Schema
 
-const VideoByPlaylistSchema = Schema({
+const VideoByChannelSchema = Schema({
     id_channel: {
-        type: String,
-        required: true
-    },
-    id_playlist: {
         type: String,
         required: true
     },
@@ -52,7 +48,7 @@ const VideoByPlaylistSchema = Schema({
     },
     video_suggestion: {
         type: Array,
-        default: false
+        default: null
     },
     execution_time: {
         type: Date,
@@ -63,4 +59,4 @@ const VideoByPlaylistSchema = Schema({
         default: Date.now
     }
 })
-module.exports = mongoose.model('VideoByPlaylist', VideoByPlaylistSchema)
+module.exports = mongoose.model('VideoByChannel', VideoByChannelSchema)

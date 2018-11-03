@@ -76,8 +76,7 @@ router.get("/infor_playlist", async (req, res) => {
                                 videos_count: Number(e.contentDetails.itemCount)
                             })
                         });
-                        await insertDataYoutube.updateTotalCountPlaylistByChannel(element.id_channel, totalPlaylist)
-                        await insertDataYoutube.addPlaylistByChannelId(data)
+                        await insertDataYoutube.addPlaylistByChannelId(element._id, totalPlaylist, data)
                         res.redirect("/crawl/infor_video_by_playlist")
                     }
                 }
@@ -120,8 +119,7 @@ router.get("/infor_video_by_playlist", async (req, res) => {
                                 execution_time: new Date()
                             })
                         });
-                        await insertDataYoutube.addItemVideoByPlaylistId(data)
-                        await insertDataYoutube.updateStatusUsedGetItemPlaylist(element.id_playlist)
+                        await insertDataYoutube.addItemVideoByPlaylistId(element._id, data)
                     }
                 }
                 loadClientSecrets(playlistItemsListByPlaylistId)
@@ -135,77 +133,81 @@ router.get("/infor_video_by_playlist", async (req, res) => {
     }
 })
 
-// router.get("/get_all_video_by_channel_id", async (req, res) => {
-//     try {
-//         let result = await getDataDatabase.getDataAllVideoByIdChannelNotUsed()
-//         if (result.length > 0) {
-//             result.forEach(element => {
-//                 async function getAllVideoByChannelId(auth) {
-//                     let service = google.youtube('v3');
-//                     let response = await service.search.list({
-//                         auth: auth,
-//                         part: 'snippet',
-//                         q: 'surfing',
-//                         videoType: "any",
-//                         type: element.id_channel,
-//                         maxResults: 50
-//                     });
-//                     console.log(response);
-//                 }
-//                 loadClientSecrets(getAllVideoByChannelId)
-//             })
-//         } else {
-//             res.json({ "Status": "Không có dữ liệu channel thích hợp" })
-//         }
-//     } catch (error) {
-//         throw error
-//     }
-// })
+router.get("/get_all_video_by_channel_id", async (req, res) => {
+    try {
+        let result = await getDataDatabase.getDataAllVideoByIdChannelNotUsed()
+        if (result.length > 0) {
+            result.forEach(element => {
+                async function getAllVideoByChannelId(auth) {
+                    let service = google.youtube('v3');
+                    let responseFirst = await service.search.list({
+                        auth: auth,
+                        oder: 'date',
+                        part: 'snippet',
+                        channelId: element.id_channel,
+                        type: 'video',
+                        maxResults: 50
+                    });
+                    var data = []
+                    let itemVideoList = responseFirst.data.items
+                    itemVideoList.forEach(e => {
+                        data.push({
+                            id_channel: element.id_channel,
+                            id_video: e.id.videoId,
+                            title: e.snippet.title,
+                            description: e.snippet.description,
+                            date_of_participation: e.snippet.publishedAt,
+                            execution_time: new Date()
+                        })
+                    });
 
-// router.get("/tz", async (req, res) => {
+                    if (responseFirst.data.nextPageToken) {
+                        let nextPage = responseFirst.data.nextPageToken
+                        async function getDataCheckNextPageToken(nextPage) {
+                            let responseNext = await service.search.list({
+                                auth: auth,
+                                oder: 'date',
+                                part: 'snippet',
+                                pageToken: nextPage,
+                                channelId: element.id_channel,
+                                type: 'video',
+                                maxResults: 50
+                            });
+                            let itemVideoListNext = responseNext.data.items
+                            itemVideoListNext.forEach(e => {
+                                data.push({
+                                    id_channel: element.id_channel,
+                                    id_video: e.id.videoId,
+                                    title: e.snippet.title,
+                                    description: e.snippet.description,
+                                    date_of_participation: e.snippet.publishedAt,
+                                    execution_time: new Date()
+                                })
+                            });
+                            if (responseNext.data.nextPageToken) {
+                                nextPage = responseNext.data.nextPageToken
+                                getDataCheckNextPageToken(nextPage)
+                            } else {
+                                await insertDataYoutube.addListVideoByChannelId(element._id, data)
+                                res.json({ "Status": "Get data result" })
+                            }
+                        }
+                        getDataCheckNextPageToken(nextPage)
+                    } else {
+                        await insertDataYoutube.addListVideoByChannelId(element._id, data)
+                        res.json({ "Status": "Get data result" })
+                    }
+                }
+                loadClientSecrets(getAllVideoByChannelId)
+            })
+        } else {
+            res.json({ "Status": "Không có dữ liệu channel thích hợp" })
+        }
+    } catch (error) {
+        throw error
+    }
+})
 
-// 	function videosListMultipleIds(auth) {
-// 		var service = google.youtube('v3');
-// 		service.videos.list({
-// 			auth: auth,
-// 			part: 'snippet,contentDetails,statistics',
-// 			id: 'Ks-_Mh1QhMc',
-// 		}, function (err, response) {
-// 			if (err) {
-// 				console.log('The API returned an error: ' + err);
-// 				return;
-// 			}
-// 			var channels = response.data
-// 			// if (channels.length == 0) {
-// 			// 	console.log('No channel found.');
-// 			// } else {
-// 			res.json({
-// 				channels
-// 			})
-// 			// }
-// 		});
-// 	}
-// 	loadClientSecrets(videosListMultipleIds)
-// })
-// router.get("/gggg", (req, res) => {
-// 	async function commentThreadsListByVideoId(auth) {
-// 		try {
-// 			let service = google.youtube({
-// 				version: 'v3',
-// 				auth: "AIzaSyAo-50y3ycDeV2UJF7xFlpgH0fP_q_4sNw"
-// 			});
-// 			let result = await service.commentThreads.list({
-// 				auth: auth,
-// 				part: 'snippet,replies',
-// 				videoId: 'tndWY2o-aBA'
-// 			})
-// 			res.json({ result })
-// 		} catch (error) {
-// 			throw error
-// 		}
-// 	}
-// 	loadClientSecrets(commentThreadsListByVideoId)
-// })
 
 
 module.exports = router

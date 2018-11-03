@@ -1,6 +1,7 @@
 import ChannelSchema from "../models/Channel"
 import PlaylistSchema from "../models/Playlists"
-import VideoByPlaylistSchema from "../models/VideoByPlaylist"
+import VideoByPlaylist from "../models/VideoByPlaylist"
+import VideoByChannel from "../models/VideoByChannel"
 
 const addChannel = async data => {
     try {
@@ -37,11 +38,11 @@ const updateInformationChannel = async (id, data) => {
     }
 }
 
-const updateTotalCountPlaylistByChannel = async (idChannel, data) => {
-    let totalCountPlaylist = Number(data)
+const addPlaylistByChannelId = async (id, toTalPlaylist, data) => {
     try {
-        let result = await ChannelSchema.updateOne(
-            { id_channel: idChannel },
+        let totalCountPlaylist = Number(toTalPlaylist)
+        await ChannelSchema.updateOne(
+            { _id: id },
             {
                 $set: {
                     total_count_playlist: totalCountPlaylist,
@@ -49,14 +50,6 @@ const updateTotalCountPlaylistByChannel = async (idChannel, data) => {
                 }
             }
         )
-        return result
-    } catch (error) {
-        throw error
-    }
-}
-
-const addPlaylistByChannelId = async (data) => {
-    try {
         let result = await PlaylistSchema.insertMany(data)
         return result
     } catch (error) {
@@ -64,25 +57,34 @@ const addPlaylistByChannelId = async (data) => {
     }
 }
 
-const addItemVideoByPlaylistId = async (data) => {
+const addItemVideoByPlaylistId = async (id, data) => {
     try {
-        let result = await VideoByPlaylistSchema.insertMany(data)
-        return result
-    } catch (error) {
-        throw error
-    }
-}
-
-const updateStatusUsedGetItemPlaylist = async (idPlaylist) => {
-    try {
-        let result = await PlaylistSchema.updateOne(
-            { id_playlist: idPlaylist },
+        await PlaylistSchema.updateOne(
+            { _id: id },
             {
                 $set: {
                     used_get_video_suggestion: true
                 }
             }
         )
+        let result = await VideoByPlaylist.insertMany(data)
+        return result
+    } catch (error) {
+        throw error
+    }
+}
+
+const addListVideoByChannelId = async (id, data) => {
+    try {
+        await ChannelSchema.updateOne(
+            { _id: id },
+            {
+                $set: {
+                    used_get_all_video: true
+                }
+            }
+        )
+        let result = await VideoByChannel.insertMany(data)
         return result
     } catch (error) {
         throw error
@@ -93,7 +95,6 @@ module.exports = {
     addChannel,
     updateInformationChannel,
     addPlaylistByChannelId,
-    updateTotalCountPlaylistByChannel,
     addItemVideoByPlaylistId,
-    updateStatusUsedGetItemPlaylist
+    addListVideoByChannelId
 }
