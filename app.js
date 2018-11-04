@@ -34,7 +34,6 @@ mongoose.connect(`mongodb://localhost:27017/${config.get("mongodb.database")}`, 
 // mongod --auth --port 27017 --dbpath /c/Users/akker/Desktop/code/database
 // mongo --port 27017 -u "admin" -p "admin" --authenticationDatabase "youtube_crawl"
 
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
