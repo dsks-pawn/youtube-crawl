@@ -55,10 +55,34 @@ const getDataDetailVideoListChannelNotUsed = async () => {
         throw error
     }
 }
+
+const getDataVideoRelatedNotUsed = async () => {
+    try {
+        let result = await VideoByChannelSchema.find({ video_suggestion: [] }).select({
+            id_video: 1
+        })
+        return result
+    } catch (error) {
+        throw error
+    }
+}
+
+const getDataCommentVideoListChannelNotUsed = async () => {
+    try {
+        let result = await VideoByChannelSchema.find({ used_get_comment: false }).select({
+            id_video: 1
+        })
+        return result
+    } catch (error) {
+        throw error
+    }
+}
 module.exports = {
     getDataChannelByIdChannelNotUsed,
     getDataAllVideoByIdChannelNotUsed,
     getDataPlaylistByIdChannelNotUsed,
     getDataPlaylistByIdPlaylistNotUsed,
-    getDataDetailVideoListChannelNotUsed
+    getDataDetailVideoListChannelNotUsed,
+    getDataVideoRelatedNotUsed,
+    getDataCommentVideoListChannelNotUsed
 }

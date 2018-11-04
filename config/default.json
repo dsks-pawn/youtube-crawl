@@ -10,5 +10,6 @@
 		"user": "admin",
 		"pass": "admin",
 		"database": "youtube_crawl"
-	}
+	},
+	"keyAPI": "AIzaSyBkaOJlTpHc12ZiiMM-7HZFRi3DyKwNAfc"
 }

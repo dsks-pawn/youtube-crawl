@@ -10,9 +10,6 @@ import config from 'config'
 
 var app = express();
 
-
-
-
 let options = {
   useNewUrlParser: config.get("mongodb.useNewUrlParser"),
   db: config.get("mongodb.db"),

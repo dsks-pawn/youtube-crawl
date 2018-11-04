@@ -2,6 +2,7 @@ import ChannelSchema from "../models/Channel"
 import PlaylistSchema from "../models/Playlist"
 import VideoByPlaylist from "../models/VideoByPlaylist"
 import VideoByChannel from "../models/VideoByChannel"
+import CommentByVideo from "../models/CommentByVideo"
 
 const addChannel = async data => {
     try {
@@ -63,7 +64,7 @@ const addItemVideoByPlaylistId = async (id, data) => {
             { _id: id },
             {
                 $set: {
-                    used_get_video_suggestion: true
+                    used_get_item_playlist: true
                 }
             }
         )
@@ -116,11 +117,50 @@ const updateFullDataDetailVideoByChannel = async (data) => {
         throw error
     }
 }
+
+const updateVideoRelatedByChannel = async (id, data) => {
+    try {
+        let result = await VideoByChannel.updateOne(
+            {
+                _id: id,
+            },
+            {
+                $set: {
+                    video_suggestion: data
+                }
+            }
+        )
+        return result
+    } catch (error) {
+        throw error
+    }
+}
+
+const addListCommentByVideo = async (id, data) => {
+    try {
+        await VideoByChannel.updateOne(
+            {
+                _id: id,
+            },
+            {
+                $set: {
+                    used_get_comment: true
+                }
+            }
+        )
+        let result = CommentByVideo.insertMany(data)
+        return result
+    } catch (error) {
+        throw error
+    }
+}
 module.exports = {
     addChannel,
     updateInformationChannel,
     addPlaylistByChannelId,
     addItemVideoByPlaylistId,
     addListVideoByChannelId,
-    updateFullDataDetailVideoByChannel
+    updateFullDataDetailVideoByChannel,
+    updateVideoRelatedByChannel,
+    addListCommentByVideo
 }
